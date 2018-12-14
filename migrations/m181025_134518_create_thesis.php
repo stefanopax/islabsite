@@ -28,9 +28,10 @@ class m181025_134518_create_thesis extends Migration
 			'staff' => $this->integer()->notNull(),
         ]);
 
-        /* insert for testing*/
 		$this->createIndex('idx-thesis-id','thesis','id');
         $this->addForeignKey('fk-thesis-staff','thesis','staff','staff','id','CASCADE','CASCADE');
+
+        /* insert for testing*/
     }
 
     public function down()

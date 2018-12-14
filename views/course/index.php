@@ -1,16 +1,16 @@
-<title>Islab | Course</title>
+<title>Islab | Corsi</title>
 <?php
 
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\helpers\Url;
 
 /* @var $dataProvider yii\data\ArrayDataProvider */
 /* @var $model app\models\Course */
 /* @var $edition app\models\CourseSite */
 /* @var $pages app\models\Page[] */
-
 
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
 NavBar::begin();
 $items = [];
 foreach ($pages as $rows) {
-    array_push($items, ['label' => $rows['title'], 'url' => '#', 'linkOptions' => ['style' => 'color: orange;']]);
+    array_push($items, ['label' => $rows['title'], 'url' => 'course?id='.$model->id.'&page='.$rows['title'], 'linkOptions' => ['style' => 'color: orange;']]);
 }
 
 echo Nav::widget([
@@ -30,14 +30,35 @@ NavBar::end();
 
 ?>
 
-<p><h2><center><?= Html::encode($model->title) ?><center></h2></p>
-<p><h4><center><?= Html::encode($edition->title) ?><center></h4></p>
-    <?php
+<p><h2><center><?= Html::encode($model->title, $edition->edition) ?><center></h2></p>
+<h4>
+    <center>
+        <h4><center>A.A. <?= Html::encode($edition->edition) ?> - <a href="<?= Url::to(['course/sites', 'id' => $model->id]); ?>">Edizioni precedenti</a><center></h4>
 
-    foreach ($pages as $rows) {
-        if($rows['is_home']==true)
-            echo $rows['content'];
+    <center>
+</h4>
+
+<?php
+
+    if($get = Yii::$app->getRequest()->getQueryParam('page')){
+        foreach ($pages as $rows) {
+            if ($rows['title'] == $get) {
+                if ($rows['is_public'])
+                    echo $rows['content'];
+                else {
+                    if (Yii::$app->authManager->getRolesByUser(Yii::$app->user->id) != null)
+                        echo '<h4>Puoi accedere a questa pagina</h4>';
+                    else
+                        echo '<h4>Non puoi accedere a questa pagina</h4>';
+                }
+            }
+        }
     }
 
-    ?>
-</p>
+    else {
+        foreach ($pages as $rows) {
+            if ($rows['is_home'] == true)
+                echo $rows['content'];
+        }
+    }
+?>

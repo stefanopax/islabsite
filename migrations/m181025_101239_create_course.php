@@ -20,13 +20,12 @@ class m181025_101239_create_course extends Migration
 
         /* insert for testing*/
         $this->insert('course',[
-            'id' => '1',
-            'title' => 'Basi di dati'
-            //'is_active' => true
+            'title' => 'Basi di dati',
+            'is_active' => true
         ]);
         $this->insert('course',[
-            'id' => '2',
             'title' => 'Sistemi informativi',
+            'is_active' => true
         ]);
     }
 

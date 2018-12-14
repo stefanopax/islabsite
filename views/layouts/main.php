@@ -80,7 +80,7 @@ echo Nav::widget([
                 ],
                 [
                     'label' => 'Sistemi informativi',
-                    'url' => ['/si']
+                    'url' => ['/course?id=2']
                 ],
             ],
         ],
@@ -102,12 +102,6 @@ echo Nav::widget([
             . '<li>'
             . Html::a('<span class="glyphicon glyphicon-remove"></span> Logout', ['site/logout'], ['data' => ['method' => 'post']])
             . '</li>'
-            /*. Html::beginForm([Yii::$app->user->identity->roleBasedHomePage()], 'post')
-             . Html::submitButton(
-                 'Logout (' . Yii::$app->user->identity->username . ')',
-                 ['class' => 'btn btn-link logout']
-             )
-             . Html::endForm()*/
             . '</li>'
         )
     ],

@@ -1,4 +1,4 @@
-<?php
+<?php /** @noinspection ALL */
 
 namespace app\controllers;
 
@@ -22,16 +22,6 @@ class CourseController extends Controller
     public function behaviors()
     {
         return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'rules' => [
-                    [
-                        'actions' => ['index', 'page'],
-                        'allow' => true,
-                        'roles' => ['@'],                                // @ tutti i ruoli
-                    ],
-                ],
-            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -48,7 +38,7 @@ class CourseController extends Controller
      */
     public function actionIndex($id)
     {
-        $edition=CourseSite:: findCurrentCourseSite($id);
+        $edition = CourseSite:: findCurrentCourseSite($id);
         return $this->render('index', [
             'model' => $this->findModel($id),
             'edition' => $edition,
@@ -56,11 +46,23 @@ class CourseController extends Controller
         ]);
     }
 
-    public function actionPage($course)
+    /**
+     * Lists all past Course Sites.
+     * @return mixed
+     */
+    public function actionSites($id)
     {
-        return true;
+        $model = $this->findModel($id);
+        return $this->render('sites', [
+            'model' => $model,
+            'courses' => $model->getCourseSites()->all()
+        ]);
     }
 
+    /**
+     * Return the model associated to the Course with specific id.
+     * @return mixed
+     */
     protected function findModel($id)
     {
         if (($model = Course::findOne($id)) !== null) {

@@ -21,13 +21,21 @@ class m181025_101250_create_course_site extends Migration
             'css' => $this->text(),
             'is_current' => $this->boolean()->defaultValue('false'),
             'course' => $this->integer()->notNull()
-
 		]);
 
         $this->createIndex('idx-course_site-id','course_site','id');
         $this->addForeignKey('fk-course_site-course','course_site','course','course','id','CASCADE','CASCADE');
 
-        /* insert for testing*/
+        /* insert for testing */
+        $id1 = (new \yii\db\Query())->select(['id'])->from('course')->where(['title' => 'Basi di dati']);
+        $id2 = (new \yii\db\Query())->select(['id'])->from('course')->where(['title' => 'Sistemi informativi']);
+
+        $this->batchInsert('course_site', ['title', 'edition', 'opening_date', 'closing_date', 'css', 'is_current', 'course'], [
+            ['Basi di dati', '2018/2019', '10/10/2018', '10/10/2019', 'my css code', true, $id1],
+            ['Basi di dati', '2017/2018', '10/10/2017', '10/10/2018', 'my css code', false, $id1],
+            ['Sistemi informativi', '2018/2019', '10/10/2018', '10/10/2019', 'my css code', true, $id2],
+            ['Sistemi informativi', '2017/2018', '10/10/2017', '10/10/2018', 'my css code', false, $id2]
+        ]);
     }
 
     public function down()
