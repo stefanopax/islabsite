@@ -4,9 +4,10 @@
 /* @var $this yii\web\View */
 
 $this->title = 'Islab website';
-?>
+
+use yii\helpers\Url; ?>
 <br></br>
- <div class="uk-panel">
+<div class="uk-panel">
   	<iframe class="uk-align-left uk-margin-remove-adjacent" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3208.299359566874!2d9.229843311818122!3d45.47635191804879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb352902f69b55d01!2sUniversit%C3%A0+degli+Studi+di+Milano+-+Dipartimento+di+Informatica!5e1!3m2!1sit!2sit!4v1536909232417" width="300" height="300"></iframe>
   	<a class="uk-button" href="https://www.google.com/maps/place/Universit%C3%A0+degli+Studi+di+Milano+-+Dipartimento+di+Informatica/@45.476516,9.231723,524m/data=!3m1!1e3!4m5!3m4!1s0x0:0xb352902f69b55d01!8m2!3d45.4761272!4d9.2321496?hl=it-IT">Visualizza Mappa Grande</a>
 

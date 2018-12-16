@@ -4,7 +4,6 @@ namespace app\controllers;
 
 use app\models\SearchThesis;
 use Yii;
-use app\models\thesis;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -45,11 +44,4 @@ class ThesisController extends Controller
 			]);
 		//}
     }
-
-    /**
-     * Displays a single project model.
-     * @param integer $id
-     * @return mixed
-     * @throws NotFoundHttpException if the model cannot be found
-     */
 }

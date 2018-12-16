@@ -6,12 +6,12 @@ use Yii;
 use app\models\User;
 use app\models\Staff;
 use app\models\SearchStaffAdmin;
+use yii\db\StaleObjectException;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use yii\web\ForbiddenHttpException;
-
 
 /**
  * AdminstaffController implements the CRUD actions for User model.
@@ -33,7 +33,7 @@ class AdminstaffController extends Controller
                     [
                         'actions' => ['view','index','create','update','delete'],
                         'allow' => true,
-                        'roles' => ['admin'],								// @ tutti i ruoli
+                        'roles' => ['admin'],
                     ],
 					[
 						'actions' => ['view','update'],
@@ -115,8 +115,12 @@ class AdminstaffController extends Controller
 				}
 			}
 			else {
-				$model->delete();
-			}
+                try {
+                    $model->delete();
+                } catch (StaleObjectException $e) {
+                } catch (\Throwable $e) {
+                }
+            }
 			
         }
         return $this->render('create', [

@@ -9,8 +9,6 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use yii\base\NotSupportedException;
 
-
-
 class AdminController extends Controller
 {
     /**
@@ -26,7 +24,7 @@ class AdminController extends Controller
                     [
                         'actions' => ['index'],
                         'allow' => true,
-                        'roles' => ['admin'],								// @ tutti i ruoli
+                        'roles' => ['admin'],
                     ],
                 ],
             ],
@@ -52,7 +50,7 @@ class AdminController extends Controller
     /**
      * Displays homepage.
      *
-     * @return string
+     * @return mixed
      */
     public function actionIndex()
     {

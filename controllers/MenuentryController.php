@@ -2,7 +2,6 @@
 
 namespace app\controllers;
 
-
 use Yii;
 use app\models\Menuentry;
 use yii\db\Exception;

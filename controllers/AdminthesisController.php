@@ -28,7 +28,7 @@ class AdminthesisController extends Controller
                     [
                         'actions' => ['view','index','create','update','delete'],
                         'allow' => true,
-                        'roles' => ['admin'],								// @ tutti i ruoli
+                        'roles' => ['admin'],
                     ],
                 ],
             ],

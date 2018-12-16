@@ -32,7 +32,7 @@ class CourseController extends Controller
     }
 
     /**
-     * Lists all project models.
+     * Display the course pages.
      * @return mixed
      * @throws NotFoundHttpException
      */
@@ -56,6 +56,21 @@ class CourseController extends Controller
         return $this->render('sites', [
             'model' => $model,
             'courses' => $model->getCourseSites()->all()
+        ]);
+    }
+
+    /**
+     * Display the past course page.
+     * @return mixed
+     */
+    public function actionPastcourse($id, $course)
+    {
+        $model = $this->findModel($id);
+        $edition = CourseSite::findIdentity($course);
+        return $this->render('pastcourse', [
+            'model' => $model,
+            'edition' => $edition,
+            'pages' => $edition->getPages()
         ]);
     }
 

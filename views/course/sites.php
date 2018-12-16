@@ -1,10 +1,8 @@
 <title>Islab | Edizioni precedenti</title>
 <?php
 
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
 use yii\helpers\Html;
-use yii\grid\GridView;
+use yii\helpers\Url;
 
 /* @var $dataProvider yii\data\ArrayDataProvider */
 /* @var $model app\models\Course */
@@ -12,7 +10,7 @@ use yii\grid\GridView;
 
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<h1>Vecchi corsi qui:</h1>
+<h2>Vecchi corsi di <?= strtolower(Html::encode($model->title)) ?>:</h2>
 <div>
     <table class="uk-table">
         <tbody>
@@ -29,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <td>' . $course['edition'] . '</td>
                     <td>' . $course['opening_date'] . '</td>
                     <td>' . $course['closing_date'] . '</td>
-                    <td><a class="uk-button uk-button-default" href="">Vai al corso</a></td>
+                    <td><button class="uk-button uk-button-primary" name="btn">Vai al corso</button></td>
                   </tr>
             ';
         }

@@ -6,11 +6,11 @@ use Yii;
 use app\models\User;
 use app\models\Student;
 use app\models\SearchStudent;
+use yii\db\StaleObjectException;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-
 
 /**
  * AdminStudentController implements the CRUD actions for User model.
@@ -30,7 +30,7 @@ class AdminstudentController extends Controller
                     [
                         'actions' => ['view','index','create','update','delete'],
                         'allow' => true,
-                        'roles' => ['admin'],								// @ tutti i ruoli
+                        'roles' => ['admin'],
                     ],
                 ],
             ],
@@ -92,8 +92,12 @@ class AdminstudentController extends Controller
 				}
 			}
 			else {
-				$model->delete();
-			}
+                try {
+                    $model->delete();
+                } catch (StaleObjectException $e) {
+                } catch (\Throwable $e) {
+                }
+            }
 			
         }
         return $this->render('create', [

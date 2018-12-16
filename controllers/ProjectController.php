@@ -3,7 +3,6 @@
 namespace app\controllers;
 
 use Yii;
-use app\models\project;
 use app\models\SearchProject;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -45,11 +44,4 @@ class ProjectController extends Controller
 			]);
 		//}
     }
-
-    /**
-     * Displays a single project model.
-     * @param integer $id
-     * @return mixed
-     * @throws NotFoundHttpException if the model cannot be found
-     */
 }

@@ -6,6 +6,7 @@ use Yii;
 use app\models\Staff;
 use app\models\SearchStaff;
 use app\models\SearchStaffAdmin;
+use yii\db\StaleObjectException;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -110,8 +111,13 @@ class StaffController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
-		return $this->redirect(['index']);
+        try {
+            $this->findModel($id)->delete();
+        } catch (StaleObjectException $e) {
+        } catch (NotFoundHttpException $e) {
+        } catch (\Throwable $e) {
+        }
+        return $this->redirect(['index']);
     }
 
     /**

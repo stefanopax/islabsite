@@ -4,7 +4,6 @@
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\helpers\Html;
-use yii\grid\GridView;
 use yii\helpers\Url;
 
 /* @var $dataProvider yii\data\ArrayDataProvider */
@@ -47,7 +46,7 @@ NavBar::end();
                     echo $rows['content'];
                 else {
                     if (Yii::$app->authManager->getRolesByUser(Yii::$app->user->id) != null)
-                        echo '<h4>Puoi accedere a questa pagina</h4>';
+                        echo $rows['content'];
                     else
                         echo '<h4>Non puoi accedere a questa pagina</h4>';
                 }

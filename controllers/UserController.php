@@ -3,14 +3,12 @@
 namespace app\controllers;
 
 use Yii;
-use app\models\Islab_user;
-use app\models\Islab_userSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * Islab_userController implements the CRUD actions for Islab_user model.
+ * UserController implements the CRUD actions for Uer model.
  */
 class UserController extends Controller
 {

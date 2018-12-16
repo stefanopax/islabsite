@@ -7,10 +7,9 @@ use app\widgets\Alert;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
+use yii\helpers\Url;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
-use app\models\User;
-
 
 AppAsset::register($this);
 $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'href' => '/img/islab_mini.png']);
@@ -19,14 +18,36 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'href' => '/img/
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
-    <link rel="icon" href="/web/img/islab_mini.png" type="image/png" />
+    <style>
+        /* this keeps the footer fixed to the bottom */
+        {
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        #container {
+            min-height: 100%;
+        }
+        #main {
+            overflow: auto;
+            padding-bottom: 100px;
+        }
+        #footer {
+            position: relative;
+            height: 100px;
+            margin-top: -100px;
+            clear: both;
+        }
+    </style>
+    <link rel="icon" href="<?= Url::base(); ?>/img/islab_mini.png" alt="islab_logo" type="image/png" />
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <?php $this->head() ?>
 </head>
-
 <?php
 
 NavBar::begin([
@@ -50,7 +71,7 @@ echo Nav::widget([
             'linkOptions' => ['style' => 'color: #000;']
         ],
         [
-            'label' => '<span class="glyphicon glyphicon-pencil"></span> Project',
+            'label' => '<span class="glyphicon glyphicon-pencil"></span> Progetti',
             'url' => ['/project'],
             'class' => 'uk-navbar-left',
             'img' => 'dist/img/user2-160x160.jpg',
@@ -108,20 +129,20 @@ echo Nav::widget([
 ]);
 NavBar::end();
 ?>
-
-
 <?= Breadcrumbs::widget([
     'links' => isset($this->params['breadcrumbs']) ? null : null,
 ]) ?>
 <?= Alert::widget() ?>
-<div class="container">
+<div id="container" class="container">
+    <div id="main">
     <?= $content ?>
+    </div>
 </div>
 <?php $this->beginBody() ?>
 <footer id="footer" class="uk-text-center" style="background-color: orange">
     <div uk-sticky="bottom: true">
         <div class="uk-container uk-container-center">
-            <img src="/ghprova/islabsiteyii2/web/img/islab_mini.png" alt="" width="40" height="40">
+            <img src="<?= Url::base(); ?>/img/islab_mini.png" alt="islab_logo" width="40" height="40">
             <br><br/>
             Via Celoria 18, 20133 Milano, Italy<br /> Tel +390250316354 Fax +390250316229 Web
             <a href="http://islab.di.unimi.it">http://islab.di.unimi.it</a>

@@ -28,7 +28,7 @@ class StaffmenuentryController extends Controller
                     [
                         'actions' => ['view','index','create','update','delete'],
                         'allow' => true,
-                        'roles' => ['staff'],								// @ tutti i ruoli
+                        'roles' => ['staff'],								// @ all roles
                     ],
 					[
 						'actions' => ['index','view','update'],

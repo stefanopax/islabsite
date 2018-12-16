@@ -5,11 +5,7 @@ namespace app\controllers;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
-use yii\web\Response;
-use yii\filters\VerbFilter;
 use yii\base\NotSupportedException;
-
-
 
 class TeacherController extends Controller
 {
@@ -26,7 +22,7 @@ class TeacherController extends Controller
                     [
                         'actions' => ['index'],
                         'allow' => true,
-                        'roles' => ['teacher'],								// @ tutti i ruoli
+                        'roles' => ['teacher'],								// @ all roles
                     ],
                 ],
             ],

@@ -11,7 +11,6 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
-
 /**
  * AdminstaffController implements the CRUD actions for User model.
  */
@@ -32,7 +31,7 @@ class AdminteacherController extends Controller
                     [
                         'actions' => ['view','index','create','update','delete'],
                         'allow' => true,
-                        'roles' => ['admin'],								// @ tutti i ruoli
+                        'roles' => ['admin'],
                     ],
                 ],
             ],

@@ -59,6 +59,9 @@ class Menuentry extends \yii\db\ActiveRecord
         ];
     }
 
+    /**
+     * @return Menuentry
+     */
     public static function findIdentity($id)
     {
         return static::findOne(['id' => $id]);		// 'is_disabled' => 0

@@ -32,7 +32,7 @@ class StaffthesisstudentController extends Controller
                     [
                         'actions' => ['view','index','create','update','delete','create0'],
                         'allow' => true,
-                        'roles' => ['staff'],								// @ tutti i ruoli
+                        'roles' => ['staff'],								// @ all roles
                     ],
                 ],
             ],
@@ -126,8 +126,10 @@ class StaffthesisstudentController extends Controller
         $thesis = Thesis::findThesis($thesis);
 
         if ($model->load(Yii::$app->request->post())) {
-               /*if (User::findByUsername($stud->username)){
-                   $model->student(User::findByUsername($stud->username))->getId();*/
+               /*
+                * if (User::findByUsername($stud->username))
+                *   $model->student(User::findByUsername($stud->username))->getId();
+               */
                    if($model->save()) {
                        return $this->redirect(['view', 'thesis' => $model->thesis, 'student' => $model->student]);
                    }

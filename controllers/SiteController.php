@@ -8,15 +8,10 @@ use yii\web\Controller;
 use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
-use app\models\ContactForm;
 use app\models\Usertemp;
-use app\models\User;
 use app\models\RegisterForm;
 use yii\base\NotSupportedException;
 use app\models\Request;
-
-
-
 
 class SiteController extends Controller
 {
@@ -33,7 +28,7 @@ class SiteController extends Controller
                     [
                         'actions' => ['logout','request'],
                         'allow' => true,
-                        'roles' => ['@'],								// @ tutti i ruoli
+                        'roles' => ['@'],								// @ all roles
                     ],
                 ],
             ],

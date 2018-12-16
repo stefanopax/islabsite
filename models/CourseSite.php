@@ -94,6 +94,17 @@ class CourseSite extends \yii\db\ActiveRecord
         return $this->hasMany(Registers::className(), ['course_site' => 'id']);
     }
 
+    /**
+     * @return CourseSite
+     */
+    public static function findIdentity($id)
+    {
+        return static::findOne(['id' => $id]);		// 'is_disabled' => 0
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
     public function createCourseSite($course)
     {
 
