@@ -81,7 +81,7 @@ class AdminthesisController extends Controller
         if ($model->load(Yii::$app->request->post())){
 			$model->setData();
 			if($model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+                return $this->redirect(['view', 'id' => $model->id]);
 			}
         }
 

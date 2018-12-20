@@ -10,6 +10,7 @@ use yii\helpers\Url;
 /* @var $model app\models\Course */
 /* @var $edition app\models\CourseSite */
 /* @var $pages app\models\Page[] */
+/* @var $subscribed boolean */
 
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -45,7 +46,7 @@ NavBar::end();
                 if ($rows['is_public'])
                     echo $rows['content'];
                 else {
-                    if (Yii::$app->authManager->getRolesByUser(Yii::$app->user->id) != null)
+                    if (Yii::$app->authManager->getRolesByUser(Yii::$app->user->id) != null && $subscribed)
                         echo $rows['content'];
                     else
                         echo '<h4>Non puoi accedere a questa pagina</h4>';

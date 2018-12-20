@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Registers;
 use Yii;
 use yii\data\ActiveDataProvider;
 use yii\filters\AccessControl;
@@ -39,10 +40,16 @@ class CourseController extends Controller
     public function actionIndex($id)
     {
         $edition = CourseSite:: findCurrentCourseSite($id);
+        // check if user is subscribed to that course site
+        $subscribed = false;
+        $register = Registers::find()->where(['student' => Yii::$app->user->id])->one();
+        if($register)
+            $subscribed=true;
         return $this->render('index', [
             'model' => $this->findModel($id),
             'edition' => $edition,
-            'pages' => $edition->getPages()->all()
+            'pages' => $edition->getPages()->all(),
+            'subscribed' => $subscribed
         ]);
     }
 

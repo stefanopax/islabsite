@@ -10,6 +10,8 @@ use Yii;
  * @property int $id
  * @property string $register_id
  *
+ * @property Registers[] $registers
+ * @property CourseSite[] $course
  * @property Exam-student[] $exam-students
  * @property User $id0
  * @property Student-course-site[] $student-course-sites
@@ -100,4 +102,12 @@ class Student extends \yii\db\ActiveRecord
             $auth->assign($authRole, $this->getId());    
         }
     }
+
+    public function getCourseSites()
+    {
+        return $this->hasMany(CourseSite::className(), ['id' => 'course_site'])
+            ->viaTable('{{%registers}}', ['student' => 'id']);
+    }
+
+
 }

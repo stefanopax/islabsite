@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <table class="uk-table">
         <tbody>
         <tr>
-            <td><b>Edizione</td>
+            <td><b>Edizione</b></td>
             <td><b>Data apertura</b></td>
             <td><b>Data chiusura</b></td>
             <td></td>

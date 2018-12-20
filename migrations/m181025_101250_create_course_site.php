@@ -14,8 +14,8 @@ class m181025_101250_create_course_site extends Migration
     {
         $this->createTable('course_site', [
             'id' => $this->primaryKey(),
-            'title' => $this->string(30)->notNull(),
-            'edition' => $this->string(30)->notNull(),
+            'title' => $this->string(100)->notNull(),
+            'edition' => $this->string(100)->notNull(),
             'opening_date' => $this->datetime(),
             'closing_date' => $this->datetime(),
             'css' => $this->text(),

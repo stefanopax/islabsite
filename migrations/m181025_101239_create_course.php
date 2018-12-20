@@ -14,7 +14,7 @@ class m181025_101239_create_course extends Migration
     {
         $this->createTable('course', [
             'id' => $this->primaryKey(),
-            'title' => $this->string(20)->notNull(),
+            'title' => $this->string(100)->notNull(),
             'is_active' => $this->boolean()
         ]);
 

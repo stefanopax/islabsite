@@ -2,6 +2,9 @@
 
 namespace app\controllers;
 
+use app\models\CourseSite;
+use app\models\Registers;
+use app\models\Student;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -171,6 +174,7 @@ class SiteController extends Controller
 			}
 		}
 	}
+
     /**
      * Displays contact page.
      *
@@ -180,11 +184,18 @@ class SiteController extends Controller
     {
         $this->render('student');
     }
-	
+
+    /**
+     * Displays contact page.
+     *
+     * @return mixed
+     */
 	public function actionStudenthome()
     {
-
+        $student = Student::findOne(\Yii::$app->user->identity->id);
 		return $this->render('studenthome', [
+		    'student' => $student,
+            'courses' => $student->getCourseSites()->all()
 				]);
 	}
 
