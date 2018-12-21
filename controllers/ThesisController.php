@@ -5,7 +5,6 @@ namespace app\controllers;
 use app\models\SearchThesis;
 use Yii;
 use yii\web\Controller;
-use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**

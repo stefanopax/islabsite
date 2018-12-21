@@ -2,10 +2,12 @@
 
 namespace app\controllers;
 
+use app\models\Exam;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\base\NotSupportedException;
+use yii\web\UploadedFile;
 
 class TeacherController extends Controller
 {
@@ -20,9 +22,9 @@ class TeacherController extends Controller
                 //'only' => ['view'],
                 'rules' => [
                     [
-                        'actions' => ['index'],
+                        'actions' => ['index', 'exam'],
                         'allow' => true,
-                        'roles' => ['teacher'],								// @ all roles
+                        'roles' => ['teacher'],
                     ],
                 ],
             ],
@@ -56,6 +58,17 @@ class TeacherController extends Controller
             return $this->goHome();
         }
 		return $this->render('index');
+    }
+
+    /**
+     * Displays exams.
+     *
+     * @return string
+     */
+    public function actionExam()
+    {
+        $model = new Exam();
+        return $this->render('exam', ['model' => $model]);
     }
 }
 

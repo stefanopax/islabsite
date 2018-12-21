@@ -13,6 +13,7 @@ echo Nav::widget([
         ['label' => 'Personal', 'url' => ['/adminteacher/view', 'id' => Yii::$app->user->identity->getId()]],
         ['label' => 'Personal Menu', 'url' => ['/staffmenuentry', 'id' => Yii::$app->user->identity->getId()]],
         ['label' => 'Course', 'url' => ['/coursesite']],
+        ['label' => 'Exam', 'url' => ['/teacher/exam']]
     ],
 ]);
 NavBar::end();
