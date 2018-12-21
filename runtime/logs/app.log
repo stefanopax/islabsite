@@ -30322,3 +30322,1484 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1545323234.213
     'REQUEST_TIME' => 1545323234
 ]
+2018-12-21 00:20:46 [::1][6][rvjfjslfhr9on4ejhoeptj99t9][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/index', Array)
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-12-21 00:20:44 [::1][6][rvjfjslfhr9on4ejhoeptj99t9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '1a48918ca0d3ffad82ce8e9f53d6fdbdf3317041517a30d8a4b28da2bee82255a:2:{i:0;s:9:\"_identity\";i:1;s:20:\"[6,\"dsadas\",2592000]\";}'
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'PHPSESSID' => 'rvjfjslfhr9on4ejhoeptj99t9'
+    '_csrf' => '3f950a3b4ddeb68a49bbb836779013b3f0162fea00487904f4376e5c9602f940a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uU1p6csVgikmr6Zfd_We4pJMCOdrsoXi\";}'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 6
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/course?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=1a48918ca0d3ffad82ce8e9f53d6fdbdf3317041517a30d8a4b28da2bee82255a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A20%3A%22%5B6%2C%22dsadas%22%2C2592000%5D%22%3B%7D; PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; PHPSESSID=rvjfjslfhr9on4ejhoeptj99t9; _csrf=3f950a3b4ddeb68a49bbb836779013b3f0162fea00487904f4376e5c9602f940a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uU1p6csVgikmr6Zfd_We4pJMCOdrsoXi%22%3B%7D; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50151'
+    'REDIRECT_URL' => '/basic/web/course/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/course/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545380444.766
+    'REQUEST_TIME' => 1545380444
+]
+2018-12-21 00:21:04 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: allcourses in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php:49
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php(49): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Bitnami\\wapp...', 49, Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Bitnami\\wapp...')
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\SiteController))
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('studenthome', Array, Object(app\controllers\SiteController))
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(198): yii\base\Controller->render('studenthome', Array)
+#6 [internal function]: app\controllers\SiteController->actionStudenthome()
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#11 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2018-12-21 00:21:03 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50152'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545380463.162
+    'REQUEST_TIME' => 1545380463
+]
+2018-12-21 00:21:25 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: allcourses in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php:49
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php(49): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Bitnami\\wapp...', 49, Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Bitnami\\wapp...')
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\SiteController))
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('studenthome', Array, Object(app\controllers\SiteController))
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(198): yii\base\Controller->render('studenthome', Array)
+#6 [internal function]: app\controllers\SiteController->actionStudenthome()
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#11 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2018-12-21 00:21:23 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50173'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545380483.955
+    'REQUEST_TIME' => 1545380483
+]
+2018-12-21 00:24:27 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][ParseError] ParseError: syntax error, unexpected '$form' (T_VARIABLE), expecting ',' or ';' in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php:47
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\SiteController))
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('studenthome', Array, Object(app\controllers\SiteController))
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(198): yii\base\Controller->render('studenthome', Array)
+#4 [internal function]: app\controllers\SiteController->actionStudenthome()
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 00:24:26 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50194'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545380666.424
+    'REQUEST_TIME' => 1545380666
+]
+2018-12-21 00:24:49 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php:51
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php(51): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Bitnami\\wapp...', 51, Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Bitnami\\wapp...')
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\SiteController))
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('studenthome', Array, Object(app\controllers\SiteController))
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(198): yii\base\Controller->render('studenthome', Array)
+#6 [internal function]: app\controllers\SiteController->actionStudenthome()
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#11 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2018-12-21 00:24:48 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50201'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545380688.061
+    'REQUEST_TIME' => 1545380688
+]
+2018-12-21 00:25:10 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php:51
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php(51): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Bitnami\\wapp...', 51, Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Bitnami\\wapp...')
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\SiteController))
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('studenthome', Array, Object(app\controllers\SiteController))
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(198): yii\base\Controller->render('studenthome', Array)
+#6 [internal function]: app\controllers\SiteController->actionStudenthome()
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#11 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2018-12-21 00:25:09 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50205'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545380709.268
+    'REQUEST_TIME' => 1545380709
+]
+2018-12-21 00:25:37 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php:51
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php(51): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Bitnami\\wapp...', 51, Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Bitnami\\wapp...')
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\SiteController))
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('studenthome', Array, Object(app\controllers\SiteController))
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(198): yii\base\Controller->render('studenthome', Array)
+#6 [internal function]: app\controllers\SiteController->actionStudenthome()
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#11 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2018-12-21 00:25:36 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50212'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545380736.196
+    'REQUEST_TIME' => 1545380736
+]
+2018-12-21 00:25:43 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php:51
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php(51): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Bitnami\\wapp...', 51, Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Bitnami\\wapp...')
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\SiteController))
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('studenthome', Array, Object(app\controllers\SiteController))
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(198): yii\base\Controller->render('studenthome', Array)
+#6 [internal function]: app\controllers\SiteController->actionStudenthome()
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#11 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2018-12-21 00:25:42 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50224'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545380742.084
+    'REQUEST_TIME' => 1545380742
+]
+2018-12-21 00:46:20 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][ParseError] ParseError: syntax error, unexpected '}', expecting end of file in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\views\site\studenthome.php:56
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\SiteController))
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('studenthome', Array, Object(app\controllers\SiteController))
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(201): yii\base\Controller->render('studenthome', Array)
+#4 [internal function]: app\controllers\SiteController->actionStudenthome()
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 00:46:18 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/project'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50421'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545381978.936
+    'REQUEST_TIME' => 1545381978
+]
+2018-12-21 01:06:39 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][ParseError] ParseError: syntax error, unexpected 'return' (T_RETURN) in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php:199
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\controllers...')
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('studenthome')
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-12-21 01:06:38 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/course?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50623'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545383198.819
+    'REQUEST_TIME' => 1545383198
+]
+2018-12-21 01:23:05 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/index', Array)
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-12-21 01:23:04 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/studenthome'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50814'
+    'REDIRECT_URL' => '/basic/web/course/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/course/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545384184.092
+    'REQUEST_TIME' => 1545384184
+]
+2018-12-21 01:25:08 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: course/index.php in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index.php', Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/index.ph...', Array)
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-21 01:25:07 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50829'
+    'REDIRECT_URL' => '/basic/web/course/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/course/index.php'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545384307.521
+    'REQUEST_TIME' => 1545384307
+]
+2018-12-21 01:30:20 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][ParseError] ParseError: syntax error, unexpected ';', expecting ']' in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php:200
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\controllers...')
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('studenthome')
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-12-21 01:30:18 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/course?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50848'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545384618.989
+    'REQUEST_TIME' => 1545384618
+]
+2018-12-21 01:36:01 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: course in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php:199
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(199): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Bitnami\\wapp...', 199, Array)
+#1 [internal function]: app\controllers\SiteController->actionStudenthome()
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-12-21 01:36:00 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'hUiSYkr3KSu1lw7GTlOoYHRScBo1NWCDfGKz2DGXP2noA_4lP4Ycc83EVLE0BflRDDUkfAVcBegMA_mqfthTUA=='
+    'submit' => '1'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '116'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/studenthome'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50891'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545384960.052
+    'REQUEST_TIME' => 1545384960
+]
+2018-12-21 01:36:02 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: course in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php:199
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(199): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Bitnami\\wapp...', 199, Array)
+#1 [internal function]: app\controllers\SiteController->actionStudenthome()
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-12-21 01:36:00 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'hUiSYkr3KSu1lw7GTlOoYHRScBo1NWCDfGKz2DGXP2noA_4lP4Ycc83EVLE0BflRDDUkfAVcBegMA_mqfthTUA=='
+    'submit' => '1'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '116'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/studenthome'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50892'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545384960.387
+    'REQUEST_TIME' => 1545384960
+]
+2018-12-21 01:36:18 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: course in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php:199
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(199): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Bitnami\\wapp...', 199, Array)
+#1 [internal function]: app\controllers\SiteController->actionStudenthome()
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-12-21 01:36:17 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'hUiSYkr3KSu1lw7GTlOoYHRScBo1NWCDfGKz2DGXP2noA_4lP4Ycc83EVLE0BflRDDUkfAVcBegMA_mqfthTUA=='
+    'submit' => '1'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '116'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/studenthome'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50902'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545384977.586
+    'REQUEST_TIME' => 1545384977
+]
+2018-12-21 01:37:52 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Response.php:285
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Response.php(285): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'C:\\Bitnami\\wapp...', 285, Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Response.php(869): yii\web\Response->setStatusCode(Array)
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php(203): yii\web\Response->redirect('course', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(199): yii\web\Controller->redirect('course', Array)
+#4 [internal function]: app\controllers\SiteController->actionStudenthome()
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 01:37:51 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'hUiSYkr3KSu1lw7GTlOoYHRScBo1NWCDfGKz2DGXP2noA_4lP4Ycc83EVLE0BflRDDUkfAVcBegMA_mqfthTUA=='
+    'submit' => '1'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '116'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/studenthome'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50906'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545385071.012
+    'REQUEST_TIME' => 1545385071
+]
+2018-12-21 01:38:02 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Response.php:285
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Response.php(285): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'C:\\Bitnami\\wapp...', 285, Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Response.php(869): yii\web\Response->setStatusCode(Array)
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php(203): yii\web\Response->redirect('course', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(199): yii\web\Controller->redirect('course', Array)
+#4 [internal function]: app\controllers\SiteController->actionStudenthome()
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 01:38:01 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'clXUds-pkrJUuIqsaj6LDFcyAh3i9vXc-lHDLnfVKb8fHrgxutin6izr0NsQaNo9L1VWe9KfkLeKMIlcOJpFhg=='
+    'submit' => '1'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '116'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/studenthome'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50907'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545385081.886
+    'REQUEST_TIME' => 1545385081
+]
+2018-12-21 01:40:04 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Response.php:285
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Response.php(285): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'C:\\Bitnami\\wapp...', 285, Array)
+#1 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Response.php(869): yii\web\Response->setStatusCode(Array)
+#2 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php(203): yii\web\Response->redirect('course', Array)
+#3 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\controllers\SiteController.php(199): yii\web\Controller->redirect('course', Array)
+#4 [internal function]: app\controllers\SiteController->actionStudenthome()
+#5 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('studenthome', Array)
+#8 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/studenthom...', Array)
+#9 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.24-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 01:40:03 [::1][5][a54nuosesfmfrp72aq5ga8c0s0][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'clXUds-pkrJUuIqsaj6LDFcyAh3i9vXc-lHDLnfVKb8fHrgxutin6izr0NsQaNo9L1VWe9KfkLeKMIlcOJpFhg=='
+    'submit' => '1'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PPA_ID' => '1deoumf9u4p0iahjrpuv3ff5nb'
+    'webfx-tree-cookie-persistence' => 'wfxt-4 wfxt-6 wfxt-10 wfxt-12 wfxt-14 wfxt-16'
+    'PHPSESSID' => 'a54nuosesfmfrp72aq5ga8c0s0'
+    '_identity' => 'ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[5,\"e0zf9VGftw6I7ns7VT_Du_bt299vr-qT\",2592000]\";}'
+    '_csrf' => '1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.24-0/apache2/bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '116'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/site/studenthome'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PPA_ID=1deoumf9u4p0iahjrpuv3ff5nb; webfx-tree-cookie-persistence=wfxt-4+wfxt-6+wfxt-10+wfxt-12+wfxt-14+wfxt-16; PHPSESSID=a54nuosesfmfrp72aq5ga8c0s0; _identity=ffc43d2890e4fa66f8036bdeb559f23fb31b1e6abcf161cb4b08f25fcc150283a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22e0zf9VGftw6I7ns7VT_Du_bt299vr-qT%22%2C2592000%5D%22%3B%7D; _csrf=1dd4e476dd9008ec30837d5bb4306cf9dcc52fc9cf2b94aa513fe380d551487ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mKlGuq5XxSZwzVQ1xgTf0iekpaJrOOl9%22%3B%7D'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.24-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '50921'
+    'REDIRECT_URL' => '/basic/web/site/studenthome'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/studenthome'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545385203.741
+    'REQUEST_TIME' => 1545385203
+]

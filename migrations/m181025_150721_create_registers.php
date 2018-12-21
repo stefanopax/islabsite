@@ -15,11 +15,11 @@ class m181025_150721_create_registers extends Migration
         $this->createTable('registers', [
             'student' => $this->integer()->notNull(),
             'course_site' => $this->integer()->notNull(),
-            'date' => $this->string(30)->notNull()
+            'date' => $this->datetime()->notNull()
         ]);
 
         //creating primary key
-        $this->addPrimaryKey('pk-registers', 'registers', ['student','course_site','date']);
+        $this->addPrimaryKey('pk-registers', 'registers', ['student','course_site']);
 
         $this->addForeignKey('fk-registers-student', 'registers', 'student', 'student', 'id', 'CASCADE', 'CASCADE');
         $this->addForeignKey('fk-registers-course_site', 'registers', 'course_site', 'course_site', 'id', 'CASCADE', 'CASCADE');

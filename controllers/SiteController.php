@@ -5,6 +5,7 @@ namespace app\controllers;
 use app\models\CourseSite;
 use app\models\Registers;
 use app\models\Student;
+use app\models\User;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -123,7 +124,8 @@ class SiteController extends Controller
 			if($temp->findByUsername($username)){
 				if($register->register($username)){
 					return $this->redirect(array('site/login'));  // landing page
-			}}
+			    }
+			}
 			else return $this->redirect('index');
 		}
 		
@@ -192,10 +194,23 @@ class SiteController extends Controller
      */
 	public function actionStudenthome()
     {
+        $subscribed = true;
+        $model = new Registers();
+        if ($course = Yii::$app->request->post('submit')){
+            $model->student = \Yii::$app->user->identity->id;
+            $model->course_site = $course;
+            $model->date =  new \yii\db\Expression('NOW()'); // change with actual data
+            $model->save();
+            \Yii::$app->getSession()->setFlash('success', 'Ti sei iscritto al corso!');
+            return $this->redirect(['studenthome']);
+        }
         $student = Student::findOne(\Yii::$app->user->identity->id);
+        $allcourses = CourseSite::find()->all();
 		return $this->render('studenthome', [
 		    'student' => $student,
-            'courses' => $student->getCourseSites()->all()
+            'courses' => $student->getCourseSites()->all(),
+            'allcourses' => $allcourses,
+            'model' => $model
 				]);
 	}
 
