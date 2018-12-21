@@ -1,11 +1,7 @@
-<title>Islab | Student</title>
+<title>Islab | Staff</title>
 <?php
 
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
-use yii\bootstrap\Button;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
 
 $this->title = ('Home');
 $this->params['breadcrumbs'][] = $this->title;

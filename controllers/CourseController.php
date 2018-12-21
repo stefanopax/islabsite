@@ -70,14 +70,12 @@ class CourseController extends Controller
      * Display the past course page.
      * @return mixed
      */
-    public function actionPastcourse($id, $course)
+    public function actionPastcourse($id)
     {
-        $model = $this->findModel($id);
-        $edition = CourseSite::findIdentity($course);
+        $edition = CourseSite::findIdentity($id);
         return $this->render('pastcourse', [
-            'model' => $model,
             'edition' => $edition,
-            'pages' => $edition->getPages()
+            'pages' => $edition->getPages()->all()
         ]);
     }
 

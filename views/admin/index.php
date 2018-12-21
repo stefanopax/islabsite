@@ -1,4 +1,4 @@
-<title>Islab | Student</title>
+<title>Islab | Admin</title>
 <?php
 
 use yii\helpers\Html;

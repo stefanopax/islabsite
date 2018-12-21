@@ -5,8 +5,15 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 
 ?>
-<?php	
-	NavBar::begin();
+<?php
+	NavBar::begin([
+		'options' => [
+			'class' => 'uk-navbar',
+			'role' => 'navigation',
+			'style' => 'background-color: #CBCACA; color: blue; height: 80px',
+			'innerContainerOptions' => ['class' => 'container-fluid'],
+		]
+	]);
 	echo Nav::widget([
 			'options' => ['class' => 'uk-navbar-item'],
 			'items' => [

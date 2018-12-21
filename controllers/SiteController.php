@@ -5,7 +5,6 @@ namespace app\controllers;
 use app\models\CourseSite;
 use app\models\Registers;
 use app\models\Student;
-use app\models\User;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -14,7 +13,6 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\Usertemp;
 use app\models\RegisterForm;
-use yii\base\NotSupportedException;
 use app\models\Request;
 
 class SiteController extends Controller
@@ -142,6 +140,7 @@ class SiteController extends Controller
 		}
 		else return $this->redirect('index');		// user non nella fase intermedia PAGINA DI ERRORE
 	}
+
     /**
      * Logout action.
      *
@@ -214,6 +213,11 @@ class SiteController extends Controller
 				]);
 	}
 
+    /**
+     * Displays form.
+     *
+     * @return mixed
+     */
 	public function actionRequest($thesis)
     {
         $model = new Request();
@@ -231,8 +235,10 @@ class SiteController extends Controller
             'thesis' => $thesis,
         ]);
     }
-	// useful to render a custom template in case of error
+
+
 /*
+	 // useful to render a custom template in case of error
      public function actionError()
     {
         $error = Yii::app()->errorHandler->error;
@@ -245,14 +251,4 @@ class SiteController extends Controller
         }
     }*/
 
-
-    /**
-     * Displays about page.
-     *
-     * @return string
-     */
-    public function actionAbout()
-    {
-        return $this->render('about');
-    }
 }

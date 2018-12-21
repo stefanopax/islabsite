@@ -32742,3 +32742,1635 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1545409808.685
     'REQUEST_TIME' => 1545409808
 ]
+2018-12-21 11:25:28 [127.0.0.1][-][-][error][application] []
+    in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\SiteController.php:133
+2018-12-21 11:25:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'username' => 'marco.frascia@unimi.it'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'h1j2mkltiltkf29jhfmj3vioau'
+    '_csrf' => 'ba0d888c7f578ab15f7ab4d48952c21ce14e0db13e79b3740a6d10e401520362a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yAgmn8O8ETWsct4AHWXNcCuQRlp6Krbo\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=h1j2mkltiltkf29jhfmj3vioau; _csrf=ba0d888c7f578ab15f7ab4d48952c21ce14e0db13e79b3740a6d10e401520362a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yAgmn8O8ETWsct4AHWXNcCuQRlp6Krbo%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 18922: before request, no pac, send headers, no pac, headers received, no pac status: HTTP/1.1 302 Found, before request http://127.0.0.1/basic/web/site/register?username=marco.frascia%40unimi.it, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '18922'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '51604'
+    'REDIRECT_URL' => '/basic/web/site/register'
+    'REDIRECT_QUERY_STRING' => 'username=marco.frascia%40unimi.it'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=marco.frascia%40unimi.it'
+    'REQUEST_URI' => '/basic/web/site/register?username=marco.frascia%40unimi.it'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545420328.79
+    'REQUEST_TIME' => 1545420328
+]
+2018-12-21 11:30:35 [127.0.0.1][4][r190p69fogdsou7k9ae1rbpmgk][error][yii\base\InvalidCallException] yii\base\InvalidCallException: Unexpected yii\widgets\ContentDecorator::end() call. A matching begin() is not found. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Widget.php:120
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(509): yii\base\Widget::end()
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\views\teacher\index.php(14): yii\base\View->endContent()
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Bitnami\\wapp...')
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\TeacherController))
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\TeacherController))
+#6 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\TeacherController.php(60): yii\base\Controller->render('index')
+#7 [internal function]: app\controllers\TeacherController->actionIndex()
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('teacher', Array)
+#12 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2018-12-21 11:30:34 [127.0.0.1][4][r190p69fogdsou7k9ae1rbpmgk][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'r190p69fogdsou7k9ae1rbpmgk'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => '37fe060cb6ea0a5a738fd849b5bbe1cc3af00e127a3720bbe7de9fecd2f0288fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"D1eoMmi7tQw5ZXZnKRiEyejuy3e7FFVD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/teacher'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=r190p69fogdsou7k9ae1rbpmgk; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=37fe060cb6ea0a5a738fd849b5bbe1cc3af00e127a3720bbe7de9fecd2f0288fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D1eoMmi7tQw5ZXZnKRiEyejuy3e7FFVD%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 20889: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '20889'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '55552'
+    'REDIRECT_URL' => '/basic/web/teacher'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/teacher'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545420634.793
+    'REQUEST_TIME' => 1545420634
+]
+2018-12-21 11:42:52 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\filters\AccessControl.php:158
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\filters\AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('adminteacher/vi...', Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 11:42:51 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/teacher/exam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 26321: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '26321'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '65352'
+    'REDIRECT_URL' => '/basic/web/adminteacher/view'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/basic/web/adminteacher/view?id=4'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545421371.004
+    'REQUEST_TIME' => 1545421371
+]
+2018-12-21 11:43:03 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\filters\AccessControl.php:158
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\filters\AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('adminteacher/vi...', Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 11:43:02 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/teacher/exam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 26418: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '26418'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '65352'
+    'REDIRECT_URL' => '/basic/web/adminteacher/view'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/basic/web/adminteacher/view?id=4'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545421382.236
+    'REQUEST_TIME' => 1545421382
+]
+2018-12-21 11:43:27 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Key "is_current" is not a column name and can not be used as a filter in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\db\ActiveRecord.php:218
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(190): yii\db\ActiveRecord::filterCondition(Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(Array)
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\models\CourseSite.php(70): yii\db\BaseActiveRecord::findOne(Array)
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\CourseController.php(42): app\models\CourseSite::findCurrentCourseSite('1')
+#4 [internal function]: app\controllers\CourseController->actionIndex('1')
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course', Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 11:43:26 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/adminteacher/view?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 26575: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '26575'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '49516'
+    'REDIRECT_URL' => '/basic/web/course'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/course?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545421406.575
+    'REQUEST_TIME' => 1545421406
+]
+2018-12-21 11:43:44 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\filters\AccessControl.php:158
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\filters\AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('adminteacher/vi...', Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 11:43:43 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/teacher/exam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 26679: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '26679'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '49762'
+    'REDIRECT_URL' => '/basic/web/adminteacher/view'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/basic/web/adminteacher/view?id=4'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545421423.134
+    'REQUEST_TIME' => 1545421423
+]
+2018-12-21 11:44:15 [-][-][-][error][ReflectionException] ReflectionException: Class m181204_203340_create_divided does not exist in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\di\Container.php:428
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\di\Container.php(428): ReflectionClass->__construct('m181204_203340_...')
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('m181204_203340_...')
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m181204_203340_...', Array, Array)
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m181204_203340_...', Array, Array)
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php(201): yii\BaseYii::createObject(Array)
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(752): yii\console\controllers\MigrateController->createMigration('m181204_203340_...')
+#6 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(261): yii\console\controllers\BaseMigrateController->migrateDown('m181204_203340_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(30)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('down', Array)
+#11 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('down', Array)
+#12 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#13 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#14 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\yii(20): yii\base\Application->run()
+#16 {main}
+2018-12-21 11:44:12 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-4TPCLBBS'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\User'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-4TPCLBBS'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\atom\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 101 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '6501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LAPTOP-4TPCLBBS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-4TPCLBBS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0\\apache2\\htdocs\\basic\\'
+    'PHP_SELF' => 'C:\\Bitnami\\wappstack-7.1.17-0\\apache2\\htdocs\\basic\\yii'
+    'SCRIPT_NAME' => 'C:\\Bitnami\\wappstack-7.1.17-0\\apache2\\htdocs\\basic\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Bitnami\\wappstack-7.1.17-0\\apache2\\htdocs\\basic\\yii'
+    'PATH_TRANSLATED' => 'C:\\Bitnami\\wappstack-7.1.17-0\\apache2\\htdocs\\basic\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545421452.2781
+    'REQUEST_TIME' => 1545421452
+    'argv' => [
+        0 => 'C:\\Bitnami\\wappstack-7.1.17-0\\apache2\\htdocs\\basic\\yii'
+        1 => 'migrate/down'
+        2 => '30'
+    ]
+    'argc' => 3
+]
+2018-12-21 11:45:25 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\filters\AccessControl.php:158
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\filters\AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('adminteacher/vi...', Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-12-21 11:45:24 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/teacher'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 27445: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '27445'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '51179'
+    'REDIRECT_URL' => '/basic/web/adminteacher/view'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/basic/web/adminteacher/view?id=4'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545421524.613
+    'REQUEST_TIME' => 1545421524
+]
+2018-12-21 11:55:08 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "pastcourses". in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pastcourses', Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-21 11:55:06 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/sites?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 31170: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '31170'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '59076'
+    'REDIRECT_URL' => '/basic/web/pastcourses'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/pastcourses?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422106.987
+    'REQUEST_TIME' => 1545422106
+]
+2018-12-21 11:55:29 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "pastcourses". in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pastcourses', Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-21 11:55:28 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/sites?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 31315: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '31315'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '59422'
+    'REDIRECT_URL' => '/basic/web/pastcourses'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/pastcourses?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422128.801
+    'REQUEST_TIME' => 1545422128
+]
+2018-12-21 11:55:34 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "pastcourses". in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pastcourses', Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-21 11:55:33 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/sites?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 31354: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '31354'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '59423'
+    'REDIRECT_URL' => '/basic/web/pastcourses'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/pastcourses?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422133.551
+    'REQUEST_TIME' => 1545422133
+]
+2018-12-21 11:56:14 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: course/pastcourses in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pastcourses', Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/pastcour...', Array)
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-21 11:56:13 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/sites?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 31777: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '31777'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '59950'
+    'REDIRECT_URL' => '/basic/web/course/pastcourses'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/course/pastcourses?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422173.05
+    'REQUEST_TIME' => 1545422173
+]
+2018-12-21 11:57:11 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: course in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pastcourse', Array)
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/pastcour...', Array)
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-12-21 11:57:10 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/sites?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 32336: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '32336'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '60811'
+    'REDIRECT_URL' => '/basic/web/course/pastcourse'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/course/pastcourse?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422230.17
+    'REQUEST_TIME' => 1545422230
+]
+2018-12-21 11:58:34 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: course in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\CourseController.php:76
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\CourseController.php(76): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Bitnami\\wapp...', 76, Array)
+#1 [internal function]: app\controllers\CourseController->actionPastcourse('1')
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pastcourse', Array)
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/pastcour...', Array)
+#6 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-12-21 11:58:33 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/sites?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 32911: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '32911'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '61970'
+    'REDIRECT_URL' => '/basic/web/course/pastcourse'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/course/pastcourse?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422313.436
+    'REQUEST_TIME' => 1545422313
+]
+2018-12-21 12:01:13 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\views\course\pastcourse.php in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\CourseController))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('pastcourse', Array, Object(app\controllers\CourseController))
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\CourseController.php(78): yii\base\Controller->render('pastcourse', Array)
+#3 [internal function]: app\controllers\CourseController->actionPastcourse('1')
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pastcourse', Array)
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/pastcour...', Array)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2018-12-21 12:01:12 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/sites?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 33854: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '33854'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '64134'
+    'REDIRECT_URL' => '/basic/web/course/pastcourse'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/course/pastcourse?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422472.121
+    'REQUEST_TIME' => 1545422472
+]
+2018-12-21 12:02:16 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: title in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\views\course\pastcourse.php:19
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\views\course\pastcourse.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Bitnami\\wapp...', 19, Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Bitnami\\wapp...')
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\CourseController))
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('pastcourse', Array, Object(app\controllers\CourseController))
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\CourseController.php(78): yii\base\Controller->render('pastcourse', Array)
+#6 [internal function]: app\controllers\CourseController->actionPastcourse('1')
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pastcourse', Array)
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/pastcour...', Array)
+#11 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2018-12-21 12:02:15 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/sites?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 34238: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '34238'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '64997'
+    'REDIRECT_URL' => '/basic/web/course/pastcourse'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/course/pastcourse?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422535.691
+    'REQUEST_TIME' => 1545422535
+]
+2018-12-21 12:02:59 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: title in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\views\course\pastcourse.php:19
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\views\course\pastcourse.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Bitnami\\wapp...', 19, Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Bitnami\\wapp...')
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Bitnami\\wapp...', Array)
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Bitnami\\wapp...', Array, Object(app\controllers\CourseController))
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('pastcourse', Array, Object(app\controllers\CourseController))
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\CourseController.php(78): yii\base\Controller->render('pastcourse', Array)
+#6 [internal function]: app\controllers\CourseController->actionPastcourse('1')
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('pastcourse', Array)
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/pastcour...', Array)
+#11 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2018-12-21 12:02:58 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/sites?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 34505: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '34505'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '49180'
+    'REDIRECT_URL' => '/basic/web/course/pastcourse'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/basic/web/course/pastcourse?id=1'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422578.437
+    'REQUEST_TIME' => 1545422578
+]
+2018-12-21 12:03:07 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/', Array)
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-12-21 12:03:06 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 34566: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '34566'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '49288'
+    'REDIRECT_URL' => '/basic/web/course/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/course/'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422586.513
+    'REQUEST_TIME' => 1545422586
+]
+2018-12-21 12:05:21 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: course/course in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('course', Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('course/course', Array)
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-21 12:05:20 [127.0.0.1][4][2bb47k5fe6j10lpvof5ld2i4tl][info][application] $_GET = [
+    'id' => '1'
+    'page' => 'Progetto'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2bb47k5fe6j10lpvof5ld2i4tl'
+    '_identity' => '1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[4,\"KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ\",2592000]\";}'
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/course/pastcourse?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=2bb47k5fe6j10lpvof5ld2i4tl; _identity=1b9a64000675be4ec6e72efcf1013ab3a5c7bb62b6aa36d85e1bed1a7c17aae5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22KFxXS3BorBobH6-PbXTrnYsZKtymu3KQ%22%2C2592000%5D%22%3B%7D; _csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 35694: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '35694'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '51159'
+    'REDIRECT_URL' => '/basic/web/course/course'
+    'REDIRECT_QUERY_STRING' => 'id=1&page=Progetto'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1&page=Progetto'
+    'REQUEST_URI' => '/basic/web/course/course?id=1&page=Progetto'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422720.735
+    'REQUEST_TIME' => 1545422720
+]
+2018-12-21 12:06:22 [127.0.0.1][3][-][error][yii\base\ErrorException:2] yii\base\ErrorException: session_regenerate_id(): Session object destruction failed.  ID: files (path: C:/Bitnami/WAPPST~1.17-/php/tmp) in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Session.php:300
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_regener...', 'C:\\Bitnami\\wapp...', 300, Array)
+#1 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Session.php(300): session_regenerate_id(true)
+#2 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\User.php(651): yii\web\Session->regenerateID(true)
+#3 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\User.php(252): yii\web\User->switchIdentity(Object(app\models\User), 2592000)
+#4 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\models\LoginForm.php(115): yii\web\User->login(Object(app\models\User), 2592000)
+#5 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\SiteController.php(85): app\models\LoginForm->login()
+#6 [internal function]: app\controllers\SiteController->actionLogin()
+#7 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#10 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#11 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2018-12-21 12:06:18 [127.0.0.1][3][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '6DhmHNTtUsx8ZSNMyJMn3Z9byE9qzt7ST9ldJrz9CWjYaB94p7RruUhRZX6B_VSVzCmLKwOgvYUOsg0f3qJrHQ=='
+    'LoginForm' => [
+        'username' => 'stefano.montanelli@unimi.it'
+        'password' => 's'
+        'rememberMe' => '1'
+    ]
+    'login-button' => 'login'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0PydsY9u44F2InsHSrCdincWAkP9b_bu\";}'
+    'PHPSESSID' => 'u8ip4tlqtogk2131rsibl4175b'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => '_csrf=b102668c8f3732c1294c9ff63a33586819dcfb384d8369eae5b1885797e13217a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220PydsY9u44F2InsHSrCdincWAkP9b_bu%22%3B%7D; PHPSESSID=u8ip4tlqtogk2131rsibl4175b'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 36095: before request, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '36095'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '51752'
+    'REDIRECT_URL' => '/basic/web/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/login'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422778.42
+    'REQUEST_TIME' => 1545422778
+]
+2018-12-21 12:07:53 [127.0.0.1][-][-][error][application] []
+    in C:\Bitnami\wappstack-7.1.17-0\apache2\htdocs\basic\controllers\SiteController.php:131
+2018-12-21 12:07:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'username' => 'silvana.castano@di.unimi.it'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '097489b755f1301783edb945cc093215a85af83d2a98f9d2d1084eaa4e09abb1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uJvN1XpdcVxK7lBUo9MJt7muso1fiYbV\";}'
+    'PHPSESSID' => 'm70icnjsi4jeh7f9o4qov0l4qk'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'REDIRECT_PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'REDIRECT_STATUS' => '200'
+    'OPENSSL_CONF' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/conf/openssl.cnf'
+    'PATH' => 'C:\\Bitnami\\wappstack-7.1.17-0/apache2/bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp64\\bin\\php\\php5.6.35;C:\\Bitnami\\wappstack-7.1.17-0\\postgresql\\pgAdmin 4\\bin;C:\\Bitnami\\wappstack-7.1.17-0\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6'
+    'HTTP_COOKIE' => '_csrf=097489b755f1301783edb945cc093215a85af83d2a98f9d2d1084eaa4e09abb1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uJvN1XpdcVxK7lBUo9MJt7muso1fiYbV%22%3B%7D; PHPSESSID=m70icnjsi4jeh7f9o4qov0l4qk'
+    'HTTP_X_HOLA_UNBLOCKER_BEXT' => 'reqid 36696: before request, no pac, send headers, no pac, headers received, no pac status: HTTP/1.1 302 Found, before request http://127.0.0.1/basic/web/site/register?username=silvana.castano%40di.unimi.it, no pac, send headers, no pac'
+    'HTTP_X_HOLA_REQUEST_ID' => '36696'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Bitnami/wappstack-7.1.17-0/apache2/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '53087'
+    'REDIRECT_URL' => '/basic/web/site/register'
+    'REDIRECT_QUERY_STRING' => 'username=silvana.castano%40di.unimi.it'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=silvana.castano%40di.unimi.it'
+    'REQUEST_URI' => '/basic/web/site/register?username=silvana.castano%40di.unimi.it'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1545422873.095
+    'REQUEST_TIME' => 1545422873
+]

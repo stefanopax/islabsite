@@ -27,7 +27,8 @@ $this->params['breadcrumbs'][] = $this->title;
                     <td>' . $course['edition'] . '</td>
                     <td>' . $course['opening_date'] . '</td>
                     <td>' . $course['closing_date'] . '</td>
-                    <td><button class="uk-button uk-button-primary" name="btn">Vai al corso</button></td>
+                    <td>' . Html::a('Vai al corso', ['/course/pastcourse', 'id' => $course->id], ['class' => 'uk-button uk-button-primary']) . '</td>
+
                   </tr>
             ';
         }
